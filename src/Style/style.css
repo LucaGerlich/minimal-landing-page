@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Vibur&display=swap");
+
 body {
     background: #0a0a0a;
     font: optional;
@@ -14,7 +15,7 @@ body {
     margin: 0;
     width: 98%;
     position: absolute;
-    top: 20%;
+    top: 45%;
     text-align: center;
     animation: neon 0.08s ease-in-out infinite alternate;
 }
@@ -33,6 +34,38 @@ body {
             0 0 30px rgba(202, 228, 225, 0.42),
             0 0 12px rgba(30, 132, 242, 0.58), 0 0 22px rgba(30, 132, 242, 0.84),
             0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px rgba(30, 132, 242, 1);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Main-Header {
+        color: #c6e2ff;
+        font-size: 600%;
+        font-family: "Vibur", cursive;
+        /*font-family: "Roboto", sans-serif;*/
+        font-weight: 400;
+        margin: 0;
+        width: 98%;
+        position: absolute;
+        top: 45%;
+        text-align: center;
+        animation: neon 0.08s ease-in-out infinite alternate;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .Main-Header {
+        color: #c6e2ff;
+        font-size: 400%;
+        font-family: "Vibur", cursive;
+        /*font-family: "Roboto", sans-serif;*/
+        font-weight: 400;
+        margin: 0;
+        width: 98%;
+        position: absolute;
+        top: 45%;
+        text-align: center;
+        animation: neon 0.08s ease-in-out infinite alternate;
     }
 }
 
