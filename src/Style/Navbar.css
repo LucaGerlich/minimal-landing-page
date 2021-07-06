@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.Navbar-links {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.Navbar-link{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+a {
+    text-decoration: none;
+}

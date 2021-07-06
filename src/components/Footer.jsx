@@ -1,11 +1,13 @@
 import React from "react";
-import { Link } from "gatsby";
+import "../Style/Footer.css";
 
 export default function Footer() {
     return (
-        <footer>
+        <footer >
             <div className="Footer-links">
-                <Link to="/">Footer</Link>
+                <a className="Footer-link" href="mailto:lucagerlich@outlook.de" >Contact</a>
+                <a className="Footer-link" href="https://github.com/LucaGerlich">Github</a>
+                <a className="Footer-link" href="https://www.instagram.com/coding_luca/">Instagram</a>
             </div>
         </footer>
     );
