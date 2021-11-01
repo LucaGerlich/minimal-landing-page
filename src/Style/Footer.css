@@ -10,32 +10,32 @@
     width: 100%;
 }*/
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-
-.Footer-links{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: white;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 32px;
+.Footer-links {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 32px;
 }
 
-.Footer-link{
-    opacity: 0.3;
-    margin-left: 8px;
-    margin-right: 8px;
+.Footer-link {
+  opacity: 0.3;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .Footer-links :hover {
-    opacity: 1;
+  opacity: 1;
+  color: #baffc9;
 }
 
 a {
-    color: white;
-    text-decoration: none;
-    margin-left: 8px;
-    margin-right: 8px;
+  color: white;
+  text-decoration: none;
+  margin-left: 8px;
+  margin-right: 8px;
 }
