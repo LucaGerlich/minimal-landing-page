@@ -17,7 +17,7 @@ export default function abbout() {
             <br />A<span> developer</span>
             <br />
             based in
-            <span> Seligenstadt, Germany.</span>
+            <span><a href="https://goo.gl/maps/goHaDLqYMMkRoJRs9"> Seligenstadt, Germany </a>.</span>
           </h1>
         </div>
       </div>
